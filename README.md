@@ -9,7 +9,6 @@
 
 This **Solana Edition** template built with [Next.js](https://nextjs.org), [AI SDK](https://ai-sdk.dev), [AI Elements](https://ai-elements.dev), [AI Gateway](https://vercel.com/ai-gateway) and [Solana blockchain](https://docs.solana.com/) shows off using x402 with Solana payments and a modern AI stack.
 
-**Demo: [https://x402-ai-starter.vercel.app/](https://x402-ai-starter.vercel.app/)**
 
 ## ✨ Features
 
@@ -33,8 +32,8 @@ This **Solana Edition** template built with [Next.js](https://nextjs.org), [AI S
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/vercel-labs/x402-ai-starter
-cd x402-ai-starter
+git clone https://github.com/vercel-labs/x402-ai-Solana
+cd x402-ai-Solana
 pnpm install
 ```
 
