@@ -2,7 +2,8 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel-labs%2Fx402-ai-starter&env=SOLANA_PRIVATE_KEY,SOLANA_NETWORK,SOLANA_RPC_URL&envDescription=Solana%20configuration%20needed%20for%20blockchain%20integration%20and%20payments&envLink=https%3A%2F%2Fdocs.solana.com%2F&project-name=x402-ai-starter-solana&repository-name=x402-ai-starter-solana&demo-title=x402%20AI%20Starter%20-%20Solana%20Edition&demo-description=A%20fullstack%20template%20for%20using%20x402%20with%20Solana%20blockchain%2C%20MCP%20and%20AI%20SDK&demo-url=https%3A%2F%2Fx402-ai-starter.labs.vercel.dev%2F&demo-image=https%3A%2F%2Fx402-ai-starter.labs.vercel.dev%2Fscreenshot.png)
 
-![Screenshot of the app](./public/screenshot-small.png)
+<img width="1914" height="911" alt="image" src="https://github.com/user-attachments/assets/6b045fa0-a7a4-413d-a3dd-e95b914e888f" />
+
 
 [x402](https://x402.org) is a new protocol built on top of HTTP for doing fully accountless payments easily, quickly, cheaply and securely.
 
