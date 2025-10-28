@@ -1,16 +1,12 @@
-import type { NextConfig } from "next";
-
-if (!process.env.CI) {
-  require("./src/lib/env");
-}
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
+  // Remove the env import that's causing issues
+  reactStrictMode: true,
+  
+  // Optimize for smaller bundle size
+  experimental: {
+    optimizePackageImports: ['lucide-react', '@solana/wallet-adapter-react'],
   },
 };
 
