@@ -1,6 +1,7 @@
 {
-  "name": "x402-mcp-example",
+  "name": "skillbet",
   "version": "0.1.0",
+  "description": "Turn your skills into passive income - SkillBet 2.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -27,7 +28,11 @@
     "@radix-ui/react-use-controllable-state": "^1.2.2",
     "@scure/base": "^1.1.9",
     "@solana/spl-token": "^0.4.9",
-    "@solana/web3.js": "^1.95.4",
+    "@solana/wallet-adapter-base": "^0.9.27",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.37",
+    "@solana/web3.js": "^1.98.4",
     "@t3-oss/env-nextjs": "^0.13.8",
     "@types/bs58": "^5.0.0",
     "@types/react-syntax-highlighter": "^15.5.13",
