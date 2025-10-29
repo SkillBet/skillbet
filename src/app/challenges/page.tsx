@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import WalletButton from '@/components/WalletButton';
 import { useWallet } from '@solana/wallet-adapter-react';
 
 interface Challenge {
@@ -91,7 +91,7 @@ export default function ChallengesPage() {
                 + Create Challenge
               </Link>
             )}
-            <WalletMultiButton />
+            <WalletButton />
           </div>
         </div>
       </header>
