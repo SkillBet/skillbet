@@ -84,7 +84,7 @@ export function JobForm({ onSubmit, isSubmitting }: JobFormProps) {
             <Checkbox
               id="enable-payment"
               checked={enablePayment}
-              onCheckedChange={(checked) => setEnablePayment(checked === true)}
+              onCheckedChange={(checked: boolean) => setEnablePayment(checked === true)}
             />
             <label
               htmlFor="enable-payment"
