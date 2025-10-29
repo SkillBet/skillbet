@@ -30,7 +30,7 @@ export default function UnderDevModal() {
 
         {/* Token Link - YOUR ACTUAL TOKEN */}
         <a
-          href="https://pump.fun/coin/E3suTus9TiuLZC7Rb9AAdaSUoR54CHTVQk4FAtAtpump"
+          href="https://pump.fun"
           target="_blank"
           rel="noopener noreferrer"
           className="block w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white text-center py-4 rounded-xl font-bold mb-3 transition hover:scale-105 transform shadow-lg"
