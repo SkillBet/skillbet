@@ -28,14 +28,14 @@ export default function UnderDevModal() {
           <span className="block mt-2 text-purple-400 font-semibold">Coming Soon! 🚀</span>
         </p>
 
-        {/* Token Link */}
+        {/* Token Link - YOUR ACTUAL TOKEN */}
         <a
-          href="https://pump.fun"
+          href="https://pump.fun/coin/E3suTus9TiuLZC7Rb9AAdaSUoR54CHTVQk4FAtAtpump"
           target="_blank"
           rel="noopener noreferrer"
-          className="block w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white text-center py-4 rounded-xl font-bold mb-3 transition hover:scale-105 transform"
+          className="block w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white text-center py-4 rounded-xl font-bold mb-3 transition hover:scale-105 transform shadow-lg"
         >
-          🪙 Buy SKILL Token
+          💰 Buy $SKILL Token on Pump.fun
         </a>
 
         {/* Twitter Link */}
