@@ -38,21 +38,15 @@ export default function UnderDevModal() {
           🪙 Buy SKILL Token
         </a>
 
-        {/* Social Links */}
-        <div className="flex gap-3 mb-6">
-          <a 
-            href="#" 
-            className="flex-1 bg-white/10 hover:bg-white/20 text-white text-center py-3 rounded-lg transition"
-          >
-            Twitter
-          </a>
-          <a 
-            href="#" 
-            className="flex-1 bg-white/10 hover:bg-white/20 text-white text-center py-3 rounded-lg transition"
-          >
-            Telegram
-          </a>
-        </div>
+        {/* Twitter Link */}
+        <a 
+          href="https://x.com/SkillBetco"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block w-full bg-blue-500 hover:bg-blue-600 text-white text-center py-3 rounded-lg transition mb-6 font-semibold"
+        >
+          🐦 Follow on Twitter
+        </a>
 
         {/* Close Button */}
         <button
