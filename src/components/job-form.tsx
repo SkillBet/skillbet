@@ -104,8 +104,8 @@ export function JobForm({ onSubmit, isSubmitting }: JobFormProps) {
                 <Checkbox
                   id="act-as-scraper"
                   checked={actAsScraper}
-                  onCheckedChange={(checked) =>
-                    setActAsScraper(checked === true)
+                  onCheckedChange={(checked: boolean) =>
+                    setActAsScraper(checked)
                   }
                 />
                 <label
