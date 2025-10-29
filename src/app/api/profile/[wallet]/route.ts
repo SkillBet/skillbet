@@ -2,9 +2,11 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { wallet: string } }
+  context: { params: Promise<{ wallet: string }> }
 ) {
   try {
+    // Await the params in Next.js 15
+    const params = await context.params;
     const wallet = params.wallet;
 
     // TODO: Fetch from your database
