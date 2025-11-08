@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { SolanaWalletProvider } from '@/components/WalletProvider';
-import UnderDevModal from '@/components/UnderDevModal';  // ADD THIS
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,7 +20,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <SolanaWalletProvider>
-          <UnderDevModal />  {/* ADD THIS */}
           {children}
         </SolanaWalletProvider>
       </body>
