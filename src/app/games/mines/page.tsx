@@ -24,7 +24,8 @@ const generateSeed = (): string => {
 const hashSeed = async (seed: string): Promise<string> => {
   const encoder = new TextEncoder();
   const data = encoder.encode(seed);
-  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  // Type assertion to fix TypeScript error
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data as BufferSource);
   const hashArray = Array.from(new Uint8Array(hashBuffer));
   return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 };
